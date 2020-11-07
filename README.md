@@ -4,19 +4,19 @@
 
 ### 프로젝트 계획
 
-> 해외에서 한국의 물건을 구매의뢰 하는 기능 구현(구매대행)
-> 한국의 물건을 쇼핑할수있는 기능 구현
-> Toastify
-> modal 기능구현
-> paypal 연동
-> apollo와 graphql을 사용하여 prisma를 거쳐 backend에서 데이터를 받아옴
-> css프레임워크는 syled-componenet 사용
-> 영어와 일본어를 지원(선택)
-> 자동 견적 프로그램 구현(환율 기준)
-> shop 기능 구현
-> 좋아요 기능 구현
-> carousel 비슷한 기능 구현
-> 태그로 검색 기능 구현
+> 해외에서 한국의 물건을 구매의뢰 하는 기능 구현(구매대행)><br />
+> 한국의 물건을 쇼핑할수있는 기능 구현<br />
+> Toastify<br />
+> modal 기능구현<br />
+> paypal 연동<br />
+> apollo와 graphql을 사용하여 prisma를 거쳐 backend에서 데이터를 받아옴<br />
+> css프레임워크는 syled-componenet 사용<br />
+> 영어와 일본어를 지원(선택)<br />
+> 자동 견적 프로그램 구현(환율 기준)<br />
+> shop 기능 구현<br />
+> 좋아요 기능 구현<br />
+> carousel 비슷한 기능 구현<br />
+> 태그로 검색 기능 구현<br />
 > [![Video Label](http://img.youtube.com/vi/qGpUUfToFZA/0.jpg)](https://youtu.be/qGpUUfToFZA?t=0s)
 
 ### 구현 동영상
