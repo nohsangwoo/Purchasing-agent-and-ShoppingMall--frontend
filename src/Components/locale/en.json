@@ -1,0 +1,186 @@
+{
+  "lang": "en",
+  "hello": "Hello",
+  "HelpContainerActionName_list": {
+    "agency_fee": "Agency Fee",
+    "Shipping_fee": "Shipping Fee",
+    "payInfo": "Payment"
+  },
+
+  "HelpAgencyFee": {
+    "Top": {
+      "Title": "Purchase Agency Fee",
+      "Content": "There is an alternate fee and an optional fee for purchase service. \n The purchase agency fee is calculated on the basis of the purchase price. \n  The total amount of the item purchase will be paid to the shop (item amount + shipping + transfer fee, etc.) "
+    },
+
+    "DetailAgencyFee": {
+      "Title": "Agency Fee",
+      "Description": "The agency fee is calculated based on the price of the entire product. \n\n  Exception)\n   The shipping fee in Korea can be added for each store.  \n\n  Details \n   Primary payment (product purchase price in Korea) = (product purchase price + agency fee in Korea) Paypal fee \n  Secondary Payment (International Shipping Fee) = International Shipping Fee + Paypal Fee based on Korea Post Office \n  Fees in Korea = 4% \n Paypal fee = 4.4% + $5 + @ \n \n Please check the invoice and pay for all the expenses.",
+      "Table": {
+        "Title": { "ONE": "Price(won)", "TWO": "Fee" },
+        "ROW": {
+          "ONE": {
+            "CELL": {
+              "ONE": "~50,000",
+              "TWO": "$4"
+            }
+          },
+          "TWO": {
+            "CELL": {
+              "ONE": "50,000〜100,000",
+              "TWO": "$6"
+            }
+          },
+          "THREE": {
+            "CELL": {
+              "ONE": "100,000〜300,000",
+              "TWO": "$10"
+            }
+          },
+          "FOUR": {
+            "CELL": {
+              "ONE": "more than 300,000",
+              "TWO": "5%"
+            }
+          }
+        }
+      }
+    },
+
+    "DetailServiceOption": {
+      "Title": "Option",
+      "Table": {
+        "Title": {
+          "ONE": "",
+          "TWO": "Fee",
+          "THREE": "Contents"
+        },
+        "ROW": {
+          "ONE": {
+            "CELL": {
+              "ONE": "Bundle Packing",
+              "TWO": "$5",
+              "THREE": "It is a service to deliver items and packages \n purchased at multiple shops in one box."
+            }
+          },
+          "TWO": {
+            "CELL": {
+              "ONE": "Repacking",
+              "TWO": "$5",
+              "THREE": "removing unnecessary things , \n break easily, etc. \n This service is provided when repacking is necessary. \n  *If the item is sent in an inappropriate package (such as plastic bag packaging), \n At our discretion, we will automatically add repacking options. "
+            }
+          },
+          "THREE": {
+            "CELL": {
+              "ONE": "storage service",
+              "TWO": "$10(Basic Fee) \n $1 per day ",
+              "THREE": "It will be kept for free until 30 days \n after the arrival of the item, \n but after 30 days you will be \n charged a storage fee of $10  \n and 1$ per day(tax excluded) \n (*has not been contacted \n will be destroyed after 60 days of arrival)"
+            }
+          }
+        }
+      }
+    },
+
+    "DetailOther": {
+      "Title": "Other",
+      "Contents": "Our company follows Korean law. \n\n International shipping \n The international shipping method of this site is \n EMS(Fast Flight), International parcel (Flight), \n International parcels (Ship), EMS premium, etc. \n \n You can choose an alternate purchase service from the above shipping method. \n\n If it cannot be shipped by EMS, it will be shipped by EMS Premium. \n ※Please check the international shipping fee from the price list below.\n\n",
+      "BTN": "international shipping Fee"
+    }
+  },
+
+  "HelpShippingFee": {
+    "Top": {
+      "Title": "Shipping Fee Information",
+      "Description": "International shipping methods on this site include EMS, International parcel (air), \nInternational parcel (air), and \nEMS Premium.\n Purchase Agent service can be selected from the shipping method listed above.\n If you use the forwarding service, the shipping method will be EMS or EMS Premium and cannot be changed.\n If it cannot be shipped by EMS, it will be shipped by EMS Premium"
+    },
+
+    "DetailShippingType": {
+      "Title": {
+        "EMS": "EMS (International Speed delivery - approximately 2-4 days to deliver)",
+        "Flight": "International parcel(Flight) (approximately 7-15 days)",
+        "Ship": "International parcel(Ship) (approximately 20-30 days until delivery)"
+      },
+
+      "Description": {
+        "EMS": "\"EMS\" can ship within 30kg, It is the fastest way to deliver.",
+        "Flight": "\"Flight\" can ship within 20kg.It is a little cheaper than EMS, but it takes some time to clear customs.",
+        "Ship": "\"Ship\" can ship within 20kg.The shipping fee is low, but it takes about a month for it to arrive."
+      },
+
+      "TableEMSInfo": {
+        "ROW": {
+          "ONE": {
+            "CELL": {
+              "ONE": "maximum weight",
+              "TWO": "Within 30kg"
+            }
+          },
+          "TWO": {
+            "CELL": {
+              "ONE": "longest side",
+              "TWO": "Within 1.5m"
+            }
+          },
+          "THREE": {
+            "CELL": {
+              "ONE": "sum of length and circumference",
+              "TWO": "Within 3.0m"
+            }
+          }
+        }
+      },
+
+      "TableCostInfo": {
+        "ONE": "Weight(kg)",
+        "TWO": "Shipping fee \n（won）"
+      }
+    }
+  },
+
+  "PaymentGuidance": {
+    "Top": {
+      "Title": "Payment guide",
+      "Description": "You can use only PayPal for payment"
+    },
+    "PaypalInfo": {
+      "Title": " Payment via PayPal",
+      "Description": "There will be a fee when using PayPal payment. \n (4.4% + ($2~5) ) \n We will provide you with payment information after the order has been placed."
+    },
+    "ETC_Info": {
+      "Title": "Other payments",
+      "Description": "The payment method for [Broker/Settlement agent/Business agent/Other agent] is all the same."
+    }
+  },
+
+  "automatic_estimate": "Automatic Estimate",
+
+  "CALC": {
+    "Top": {
+      "labelPrice": "Price(₩)",
+      "infoPrice": "Please enter the price of the product",
+      "labelWeight": "Weight(Kg)",
+      "infoWeight": "Please enter the weight of the product"
+    }
+  },
+  "CALC_Price_Result": {
+    "title": "Agency fee",
+    "table": {
+      "product_price": "price",
+      "fee": "fee",
+      "repacking": "Repackaging",
+      "bank_commission": "Bank COMM",
+      "tax": "Tax in Korea",
+      "total": "Sum"
+    },
+    "ex_rate": {
+      "title": "Ex Rate",
+      "ExchangeRate": "Ex Rate",
+      "Paypal": "Paypal"
+    }
+  },
+
+  "CALC_Shipping_Result": {
+    "title": "Shipping fee",
+    "solt": "Methods"
+  }
+}
