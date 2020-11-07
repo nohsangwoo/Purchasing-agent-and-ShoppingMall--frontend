@@ -16,12 +16,14 @@
 > shop 기능 구현<br />
 > 좋아요 기능 구현<br />
 > carousel 비슷한 기능 구현<br />
-> 태그로 검색 기능 구현<br />
-> [![Video Label](http://img.youtube.com/vi/qGpUUfToFZA/0.jpg)](https://youtu.be/qGpUUfToFZA?t=0s)
+
+### 태그로 검색 기능 구현<br />
+
+> 클릭(click)<br/> [![Video Label](http://img.youtube.com/vi/qGpUUfToFZA/0.jpg)](https://youtu.be/qGpUUfToFZA?t=0s)
 
 ### 구현 동영상
 
-> 클릭(click)<br/> > [![Video Label](http://img.youtube.com/vi/B8qYpVIbnf4/0.jpg)](https://youtu.be/B8qYpVIbnf4?t=0s)
+> 클릭(click)<br/> [![Video Label](http://img.youtube.com/vi/B8qYpVIbnf4/0.jpg)](https://youtu.be/B8qYpVIbnf4?t=0s)
 
 ### 구현 이미지
 
